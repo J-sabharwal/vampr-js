@@ -16,7 +16,7 @@ class Vampire {
   
   // Returns the total number of vampires created by that vampire
   get numberOfOffspring() {
-    return this.offspring.length
+    return this.offspring.length;
   }
   
   // Returns the number of vampires away from the original vampire this vampire is
@@ -37,7 +37,7 @@ class Vampire {
     let calledOnVamp = this;
     let calledWithVamp = vampire;
     let calledOnNumFrom = calledOnVamp.numberOfVampiresFromOriginal;
-    let calledWithNumFrom= calledWithVamp.numberOfVampiresFromOriginal;
+    let calledWithNumFrom = calledWithVamp.numberOfVampiresFromOriginal;
 
     if (calledOnNumFrom < calledWithNumFrom) {
       return true;
